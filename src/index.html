@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Movies App</title>
+    </head>
+    <body>
+        <nav class="navbar navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand">MOVIEZ</a>
+                <form id="search-form" class="d-flex">
+                    <input
+                        class="form-control me-2"
+                        type="search"
+                        placeholder="Search"
+                        aria-label="Search"
+                        id="search-keyword"
+                    />
+                    <button
+                        id="btn-search"
+                        class="btn btn-primary"
+                        type="submit"
+                    >
+                        Search
+                    </button>
+                </form>
+            </div>
+        </nav>
+        <div class="container">
+            <h3 class="mt-4">Trending Movie</h3>
+            <div id="mv-list" class="row mt-4"></div>
+        </div>
+    </body>
+</html>
